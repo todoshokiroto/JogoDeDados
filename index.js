@@ -1,4 +1,3 @@
-function diceGame(){
     let randomDice1= Math.ceil(Math.random()*6);
     document.querySelector(".img1").setAttribute("src",`./images/dice${randomDice1.toString()}.png`)
     
@@ -15,5 +14,3 @@ function diceGame(){
     else{
         winText.textContent = "Draw"
     }
-
-}
